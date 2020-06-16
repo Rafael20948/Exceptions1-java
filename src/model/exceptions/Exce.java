@@ -1,10 +1,9 @@
 package model.exceptions;
 
-public class DomainException extends Exception {
-
+public class Exce extends Exception{
 	private static final long serialVersionUID = 1L;
 
-	public DomainException(String msg) {
+	public Exce(String msg) {
 		super(msg);
 	}
 }
